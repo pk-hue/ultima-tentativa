@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+
+  body{
+    margin: 0 auto;
+    width: 1680px;
+    max-width: 90%;  
+    
+    background-image: linear-gradient(to bottom, rgb(129, 9, 131), rgb(65, 2, 97) );
+    background-attachment: fixed;
+    }
+
+  .global{
+    margin-top: 30px;
+    }
+    
+  .container-principal{
+    height: 70px;
+    width: 1100px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #212529;
+    border-radius: 20px 20px 0 0;
+    }
+
+  .logo{
+    font-size: 20px; 
+    margin: 10px 60px;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif; 
+    text-transform: uppercase;
+    color: #dfdace;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    }
+
+  .menu{
+    margin-right: 40px;
+    color: hsla(0,0%,100%,.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+   }
+
+  ul{
+    display: flex;
+    margin: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+  li{
+    font-size: 16px;
+    margin: 10px;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    list-style: none;
+    border-radius:none;  
+    }
+
+  li:hover{
+    color: azure;
+    border-bottom: 4px solid rgb(132, 51, 207);
+    transition-duration: 0.5s;
+  }
+
+  .conteudo{
+    width: 1100px;
+    max-width: 90%;
+    height: 520px;
+    margin: 0 auto;
+    display: flex;
+
+    gap: 90px;
+    background-color: #31363b;
+    border-radius: 0 0 20px 20px;
+    
+    }
+
+  .container-left{
+    width: 500px;
+    margin: 20px 0px 20px 70px;
+
+
+    }
+
+  .title{
+    margin-left: 30px;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 18px; 
+    }
+
+  .title h1{
+    color: rgb(132, 51, 207);
+    }
+
+  .title span{
+    color: whitesmoke;
+    }
+
+  .paragraph{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 35px;
+    width: 340px;
+    border-radius: 10px;
+    margin-left: 25px;
+    box-shadow: 8px 8px 10px rgba(172, 107, 226, 0.411); 
+    padding: 0 10px 10px 10px;
+    }
+
+  form{
+    display: flex;  
+    flex-direction: column;
+    width: 80%;
+    padding-top: 10px;
+    margin: 0 30px ;
+  }
+ 
+  .pt{
+    height: 45px;
+    width: 50%;
+    background-color: rgb(132, 51, 207);
+    color: white;
+    font-weight: bold;  
+    cursor: pointer;
+  }
+
+  input{
+    width: 100%;
+    margin-top: 25px;
+    height: 42px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px; 
+  }
+
+  .container-right{
+    width: 500px;
+    margin: 20px 90px 20px 0px;
+
+    
+
+  }
+
+  main img{
+    width: 400px;
+    max-width: 100%;
+    margin-right: 130px;
+ 
+  }
+
+  @media (max-width: 972px){
+    header .container-principal{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    
+    
+    }
+    
+    .logo{
+    margin-bottom: 1px;
+    margin-left: 50px;
+    text-align: center;
+    }
+    .logo spam{
+    margin-left: 14px;
+    }
+    
+    .menu ul, li{
+    margin: 0;
+    margin: 1px;
+    font-size: 20px;
+    }
+    .menu{
+    margin: 0 auto;
+    
+    }
+    .conteudo{
+    display: flex;
+    gap: 19px;
+    }
+    .container-right{
+    display: none;
+    
+    }
+    .container-left{
+    margin-left: 100px;
+    
+    }
+    
+    input{
+    width: 75%;
+    }
+    
+    };
+
+  
+
+
+
+
+
+
+
+
